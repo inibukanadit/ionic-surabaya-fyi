@@ -1,0 +1,29 @@
+#home-heading {
+	display: flex;
+	padding: 64px 24px;
+	background-image: url('./../../assets/bg-heading.png');
+	background-size: 100% 100%;
+}
+
+#home-heading > div {
+	flex: auto;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#home-title, #home-subtitle {
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial';
+}
+
+#home-title {
+	color: #45D182;
+}
+
+#home-subtitle {
+	margin-top: 16px;
+	color: #BEBEBE;
+}
