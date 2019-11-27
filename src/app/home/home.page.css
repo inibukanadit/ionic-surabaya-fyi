@@ -27,3 +27,71 @@
 	margin-top: 16px;
 	color: #BEBEBE;
 }
+
+.home-section {
+	display: flex;
+	padding: 32px 24px;
+}
+
+.home-section > div {
+	flex: auto;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.home-section-title,
+.home-section-subtitle,
+.home-section-data {
+	padding: 0;
+	margin: 0;
+}
+
+.home-section-title {
+	color: #676767;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.home-section-subtitle {
+	color: #BEBEBE;
+	font-size: 12px;
+}
+
+.home-section-data {
+	margin-top: 16px;
+	font-size: 32px;
+}
+
+.home-section-data > small {
+	font-size: 16px;
+	margin-left: 8px;
+}
+
+.home-section-icon {
+	width: 48px;
+	height: 48px;
+}
+
+#home-clock {
+	background: #F2F2F2;
+}
+
+#home-clock .home-section-data {
+	color: #45D182;
+	font-weight: bold;
+}
+
+#home-temperature {
+	background-color: #45D182;
+}
+
+#home-temperature .home-section-title {
+	color: #fff;
+}
+
+#home-temperature .home-section-subtitle,
+#home-temperature .home-section-data {
+	color: #F5F591;
+}
