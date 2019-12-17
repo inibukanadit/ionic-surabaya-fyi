@@ -95,3 +95,16 @@
 #home-temperature .home-section-data {
 	color: #F5F591;
 }
+
+#home-traffic .home-section-title {
+	color: #45D182;
+}
+
+#home-traffic .home-section-subtitle,
+#home-traffic .home-section-data {
+	color: #ED783E;
+}
+
+#home-traffic .home-section-data {
+	font-weight: bold;
+}
